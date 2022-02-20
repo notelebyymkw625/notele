@@ -63,6 +63,7 @@ ul{
   margin-bottom: 5px;
 }
 .selection input {
+  -webkit-appearance: none;
   background:white;
   border:solid 2px #EEEEEE;
   border-radius:10px;
