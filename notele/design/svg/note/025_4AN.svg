@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="400" height="100">
+  <ellipse cx="173.5" cy="66" rx="9" ry="6"
+           transform="rotate(-25,100,200)"
+           stroke="none" fill="#1C658C" />
+  <line x1="117" y1="47" x2="117" y2="0"
+        stroke="#1C658C" stroke-width="2.5"
+        stroke-linecap="round" />
+</svg>

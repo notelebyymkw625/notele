@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="ja">
+  <meta name="google" content="notranslate">
+  <title>notele</title>
+  <link rel="stylesheet" type="text/css" href="design/css/style.css">
+  <link rel="icon" type="image/x-icon" href="design/img/favicon.ico">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="design/js/put_note.js"></script>
+  <script type="text/javascript" src="design/js/sing.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <img class="logo" src="design/img/logo.png" alt="notele">
+      </div>
+      <div class="header-right">
+        <p>notele 準備中</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="stave-wrapper">
+      <div class="container">
+        <ul>
+          <li class="stave">
+            <div id="note101" class=""></div>
+            <div id="note102" class=""></div>
+            <div id="note103" class=""></div>
+            <div id="note104" class=""></div>
+            <div id="note105" class=""></div>
+            <div id="note106" class=""></div>
+            <div id="note107" class=""></div>
+            <div id="note108" class=""></div>
+            <img src="design/svg/element/stave.svg" alt="stave" class="stave">
+            <input type="image" alt="sing" class="sing" id="1" src="design/img/sing.png" onclick="sing(this.id)">
+          </li>
+          <li class="stave">
+            <div id="note201" class=""></div>
+            <div id="note202" class=""></div>
+            <div id="note203" class=""></div>
+            <div id="note204" class=""></div>
+            <div id="note205" class=""></div>
+            <div id="note206" class=""></div>
+            <div id="note207" class=""></div>
+            <div id="note208" class=""></div>
+            <img src="design/svg/element/stave.svg" alt="stave" class="stave">
+            <input type="image" alt="sing" class="sing" id="1" src="design/img/sing.png" onclick="sing(this.id)">
+          </li>
+          <li class="stave">
+            <div id="note301" class=""></div>
+            <div id="note302" class=""></div>
+            <div id="note303" class=""></div>
+            <div id="note304" class=""></div>
+            <div id="note305" class=""></div>
+            <div id="note306" class=""></div>
+            <div id="note307" class=""></div>
+            <div id="note308" class=""></div>
+            <img src="design/svg/element/stave.svg" alt="stave" class="stave">
+            <input type="image" alt="sing" class="sing" id="1" src="design/img/sing.png" onclick="sing(this.id)">
+          </li>
+          <li class="stave">
+            <div id="note401" class=""></div>
+            <div id="note402" class=""></div>
+            <div id="note403" class=""></div>
+            <div id="note404" class=""></div>
+            <div id="note405" class=""></div>
+            <div id="note406" class=""></div>
+            <div id="note407" class=""></div>
+            <div id="note408" class=""></div>
+            <img src="design/svg/element/stave.svg" alt="stave" class="stave">
+            <input type="image" alt="sing" class="sing" id="1" src="design/img/sing.png" onclick="sing(this.id)">
+          </li>
+          <li class="stave">
+            <div id="note501" class=""></div>
+            <div id="note502" class=""></div>
+            <div id="note503" class=""></div>
+            <div id="note504" class=""></div>
+            <div id="note505" class=""></div>
+            <div id="note506" class=""></div>
+            <div id="note507" class=""></div>
+            <div id="note508" class=""></div>
+            <img src="design/svg/element/stave.svg" alt="stave" class="stave">
+            <input type="image" alt="sing" class="sing" id="1" src="design/img/sing.png" onclick="sing(this.id)">
+          </li>
+      </div>
+    </div>
+    <div class="btn-wrapper">
+      <div class="container">
+        <ul>
+          <li class="selection">
+            <input type="button" id="025_4CN" value="C" onclick="put_note(this.id)">
+            <input type="button" id="025_4CS" value="C＃" onclick="put_note(this.id)">
+            <input type="button" id="025_4DN" value="D" onclick="put_note(this.id)">
+            <input type="button" id="025_4DS" value="D＃" onclick="put_note(this.id)">
+            <input type="button" id="025_4EN" value="E" onclick="put_note(this.id)">
+            <input type="button" id="025_4FN" value="F" onclick="put_note(this.id)">
+            <input type="button" id="025_4FS" value="F＃" onclick="put_note(this.id)">
+            <input type="button" id="025_4GN" value="G" onclick="put_note(this.id)">
+          </li>
+          <li class="selection">
+            <input type="button" id="enter" value="Enter">
+            <input type="button" id="025_4GS" value="G＃" onclick="put_note(this.id)">
+            <input type="button" id="025_4AN" value="A" onclick="put_note(this.id)">
+            <input type="button" id="025_4AS" value="A＃" onclick="put_note(this.id)">
+            <input type="button" id="025_4BN" value="B" onclick="put_note(this.id)">
+            <input type="button" id="025_5CN" value="C" onclick="put_note(this.id)">
+            <input type="button" id="delete" value="Delete">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container"></div>
+  </footer>
+</body>
+</html>

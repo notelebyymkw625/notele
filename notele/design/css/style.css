@@ -1,0 +1,96 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  margin:0;
+  font-family:sans-serif;
+}
+.container {
+  width:100%;
+  padding:0 15px;
+  margin:0 auto;
+  color:#555555;
+}
+header {
+  height:11%;
+  width:100%;
+  border-bottom:solid 1px #EEEEEE;
+  position:fixed;
+  background:white;
+  top:0;
+  z-index:10;
+}
+main {
+  padding-top:11%;
+}
+.stave-wrapper {
+  padding-top:2%;
+  background-size:cover;
+  text-align:center;
+}
+.stave {
+  width:100%;
+}
+.btn-wrapper {
+  padding-bottom:2%;
+  padding-right:10%;
+  background:white;
+  text-align:center;
+  width:100%;
+  position:fixed;
+  bottom:0;
+}
+.header-left {
+  float:left;
+  width:20%;
+}
+.header-right {
+  float:right;
+}
+.header-right p {
+  display:block;
+  margin-top:30%;
+}
+.logo {
+  width:30%;
+  margin-top:12%;
+  display:block;
+}
+ul{
+  list-style-type:none;
+}
+.selection {
+  margin-bottom: 5px;
+}
+.selection input {
+  background:white;
+  border:solid 2px #EEEEEE;
+  border-radius:10px;
+  height:50px;
+  width:10%;
+}
+.selection #delete {
+  width:18%;
+}
+.selection #enter {
+  width:18%;
+}
+li.stave {
+  display:block;
+  align-items:center;
+}
+input.sing {
+  float:right;
+  width:5%;
+  height:5%;
+}
+img.stave {
+  float:middle;
+  width:90%;
+}
+li.stave div {
+  background:none;
+  position:absolute;
+  height:60%;
+  width:60%;
+}
